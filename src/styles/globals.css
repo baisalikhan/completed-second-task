@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
 
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 :root {
   --color-bg: #fff;
   --color-border: #e5e7eb;
@@ -21,7 +25,7 @@ body {
   display: flex;
   height: 100vh;
   position: relative;
-  gap: 2rem;
+  /* gap: 2rem; */
 }
 
 .layout__main-content {
@@ -71,17 +75,18 @@ body {
   display: inline-block;
   font-size: 1rem;
   text-decoration: none;
-  color: #000;
+  color: #0000009a;
   padding: 0.8rem 1rem;
   display: flex;
-  background-color: var(--color-sidebar-item);
+  /* background-color: var(--color-sidebar-item); */
   margin-bottom: 1rem;
   border-radius: 0.8rem;
 }
 
 .sidebar__link--active {
-  color: #fff;
-  background-color: #10b981;
+  color: goldenrod;
+  /* color: #fff; */
+  /* background-color: #10b981; */
 }
 
 .sidebar__icon {

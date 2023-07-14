@@ -30,6 +30,26 @@ const sidebarItems = [
     href: "/contact",
     icon: TiContacts,
   },
+  {
+    name: "Mails",
+    href: "/mails",
+    icon: FiMail,
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+    icon: TiContacts,
+  },
+  {
+    name: "Mails",
+    href: "/mails",
+    icon: FiMail,
+  },
+  {
+    name: "Contact",
+    href: "/contact",
+    icon: TiContacts,
+  },
 ];
 
 const Sidebar = () => {
